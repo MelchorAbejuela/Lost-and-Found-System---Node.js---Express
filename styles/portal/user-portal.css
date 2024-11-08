@@ -1,0 +1,218 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    box-sizing: border-box; 
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar {
+    width: 100%;
+    background-color: #004aad;
+    position: fixed;
+    top: 0;
+    height: 15vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    z-index: 100;
+}
+
+.navbar div {
+    width: 50%;
+    display: flex;
+    align-items: center;
+}
+.left-side {
+    margin-left: 5%;
+}
+
+.right-side {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 5%;
+}
+
+.navbar img {
+    width: 70px;
+    height: 70px;
+    border-radius: 50px;
+    object-fit: contain;
+}
+
+.navbar h1 {
+    color: white;
+    margin-left: 2%;
+    font-size: 1.5rem;
+}
+
+.main-page {
+    position: relative;
+    top: 15vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.occ-background {
+    filter: blur(5px);
+}
+
+.welcome-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    top: 18%;
+}
+
+.welcome-text h1 {
+    font-size: 3.5rem;
+    color: white;
+    text-shadow: 5px 5px 10px rgba(0, 0, 0, 1);
+}
+
+.welcome-text h3 {
+    margin-top: 2%;
+    font-size: 1.5rem;
+    color: white;
+    text-shadow: 5px 5px 10px rgba(0, 0, 0, 1);
+}
+
+.search-container {
+    position: absolute;
+    top: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.search-container input {
+   height: 40px;
+   width: 300px;
+   border-top-left-radius: 5px;
+   border-bottom-left-radius: 5px;
+   border: 2px solid #004aad;;
+   border-right: none;
+}
+
+.search-container input::placeholder {
+    text-align: center;
+    color: black;
+}
+
+.search-container img {
+    margin-left: -10px;
+    height: 40px;
+    padding: 3px;
+    border: 2px solid #004aad;;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-left: none;
+}
+
+.search-container a {
+    margin-top: 1rem;
+    font-weight: bold;
+}
+
+.search-bar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.missing-items-container {
+    width: 90%;
+    position: absolute;
+    top: 80%;
+}
+
+.missing-items-header {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 2.6rem;
+    background-color: #004aad;
+    color: white;
+}
+
+.filled-header {
+    width: 88%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.head-1, .head-2, .head-3, .head-4 {
+    width: 25%;
+    display: flex;
+    justify-content: center;
+}
+
+.space-provider {
+    width: 12%;
+    height: 100%;
+}
+
+.all-items-container-column {
+    display: flex;
+    flex-direction: column;
+}
+
+.all-items-container-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 120px;
+    width: 100%;
+    border: 2px solid #004aad;
+}
+
+.specific-item-container {
+    width: 88%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.content-1, .content-2, .content-3, .content-4 {
+    width: 25%;
+    display: flex;
+    justify-content: center;
+}
+
+.specific-item-container div {  
+    height: 120px;
+}
+
+.claim-message {
+    width: 12%;
+    height: 30%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.claim-message button {
+    padding-inline: 10px;
+    background-color: rgb(251,187,91);
+    border: none;
+    border-radius: 7px;
+    font-weight: bold;
+}
+
+.claim-message button:hover, .button-but-image:hover {
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+.button-but-image {
+    margin-right: 10px;
+}
+
+
+
+
