@@ -94,8 +94,16 @@
    width: 300px;
    border-top-left-radius: 5px;
    border-bottom-left-radius: 5px;
-   border: 2px solid #004aad;;
+   border: 2px solid #004aad;
    border-right: none;
+}
+
+.remove-border:focus {
+    border: none;
+}
+
+.search-container input:active {
+    border: 2px solid #004aad;
 }
 
 .search-container input::placeholder {
@@ -212,7 +220,3 @@
 .button-but-image {
     margin-right: 10px;
 }
-
-
-
-

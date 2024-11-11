@@ -1,0 +1,1 @@
+to automatically load the starting html or public folder, the html inside it should be named as index.html

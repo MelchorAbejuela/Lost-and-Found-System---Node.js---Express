@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles/login-admin.css">
+    <title>OCC Lost and Found System</title>
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="left-side">
+            <img src="" alt="">
+            <h1>Lost and Found System</h1>
+        </div>
+        <div class="right-side">
+            <a class="login-as-user" href="../index.html">Login as User</a>
+        </div>
+    </nav>
+
+    <div class="main">
+
+        <div class="login-container">
+            <div class="first-block">
+                <img src="../img/avatar-male.png" alt="">
+                <h1>Admin</h1>
+                <form class="login">
+                    <input type="text" name="student_number" placeholder="Employee ID" required
+                        class="employee-id-input">
+                    <input type="password" name="password" placeholder="Password" required class="password-input">
+                    <p class="message-container"></p>
+                    <button type="submit" class="login-button">Login</button>
+                </form>
+                <p>No account yet? <a href="./register-admin.html">Register here.</a></p>
+            </div>
+        </div>
+
+        <div class="lost-found-theme">
+            <img src="../img/lost-found-theme.png" alt="">
+        </div>
+
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="../script/login-admin.js"></script>
+</body>
+
+</html>
